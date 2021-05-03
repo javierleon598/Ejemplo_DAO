@@ -1,0 +1,35 @@
+[
+    {
+        "computador": {
+            "marca": "AMD",
+            "descripcion": "Pc AMD Gaming"
+        },
+        "partes": {
+            "memoria": "250GB",
+            "procesador": "RYZEN 3",
+            "board": "B-450"
+        }
+    },
+    {
+        "computador": {
+            "marca": "INTEL",
+            "descripcion": "Pc INTEL Gaming"
+        },
+        "partes": {
+            "memoria": "500GB",
+            "procesador": "I7",
+            "board": "I-650"
+        }
+    },
+    {
+        "computador": {
+            "marca": "ALIEN",
+            "descripcion": "Pc ALIEN Gaming"
+        },
+        "partes": {
+            "memoria": "1TB",
+            "procesador": "RYZEN 7",
+            "board": "A-980"
+        }
+    }
+]
