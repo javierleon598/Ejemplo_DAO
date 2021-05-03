@@ -1,4 +1,4 @@
 # EXAMPLE MVC DAO
 
-- Javier Hernández León
-- David Lancheros
+- Javier Hernández León - 20211099029
+- David Lancheros - 20211099032
