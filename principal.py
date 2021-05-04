@@ -1,7 +1,13 @@
 from fabricas import *
 
-fabricas = FabricaJson()
-# fabricas = FabricaXml()
+# fabricas = ''
+# opt = input("1. Json \n2. XML \n")
+# if opt == 1:
+#     fabricas = FabricaJson()
+# if opt == 2:
+#     fabricas = FabricaXml()
+# fabricas = FabricaJson()
+fabricas = FabricaXml()
 
 opcion = input("1. Descripcion del PC \n2. Imprimir Partes \n3. Parte del PC \n")
 if opcion == 1:
