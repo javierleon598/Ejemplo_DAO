@@ -7,7 +7,10 @@
         "partes": {
             "memoria": "250GB",
             "procesador": "RYZEN 3",
-            "board": "B-450"
+            "board": "B-450",
+            "placaRefrigeradora": "Gamer",
+            "quemadorCD": "Slim",
+            "tarjetaGrafica": "GeForce"
         }
     },
     {
@@ -18,7 +21,10 @@
         "partes": {
             "memoria": "500GB",
             "procesador": "I7",
-            "board": "I-650"
+            "board": "I-650",
+            "placaRefrigeradora": "Gamer",
+            "quemadorCD": "Slim",
+            "tarjetaGrafica": "GeForce"
         }
     },
     {
@@ -29,7 +35,10 @@
         "partes": {
             "memoria": "1TB",
             "procesador": "RYZEN 7",
-            "board": "A-980"
+            "board": "A-980",
+            "placaRefrigeradora": "Gamer",
+            "quemadorCD": "Slim",
+            "tarjetaGrafica": "GeForce"
         }
     }
 ]

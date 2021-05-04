@@ -1,12 +1,20 @@
 from fabricas import *
 
-opcion = input("Digite marca de computador para comprar \n")
-
 fabricas = FabricaJson()
 # fabricas = FabricaXml()
 
-pc = fabricas.crearPC()
-pc.readPC(marca=opcion)
+opcion = input("1. Descripcion del PC \n2. Imprimir Partes \n3. Parte del PC \n")
+if opcion == 1:
+    brand = input("Digite marca de computador para comprar \n")
+    pc = fabricas.crearPC()
+    pc.readPC(marca=brand)
 
-parts = fabricas.crearPartes()
-parts.readPartes(partes=opcion)
+if opcion == 2:
+    brand = input("Digite marca de computador para comprar \n")
+    parts = fabricas.crearPartes()
+    parts.readPartes(part=brand)
+
+else:
+    parte = input("Digite parte del PC \n")
+    parts = fabricas.crearPartes()
+    parts.readPartes(part=parte)
